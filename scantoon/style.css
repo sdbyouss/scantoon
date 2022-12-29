@@ -1,0 +1,296 @@
+body{
+    background-color: #333333;
+    background-attachment: fixed;
+    color: white;
+    width: auto;
+}
+
+.corpsdepage{
+    width: 900px;
+    margin: auto;
+}
+
+.conteneur{
+    display: flex;
+    border: none;
+}
+
+.boite{
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.entete{
+    
+    background-color: #E0E0E0;
+    color: black;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+    
+}
+
+.nomsite{
+    text-shadow: 10px 10px 6px black;
+}
+
+.navigation{
+    margin-left: 450px;
+    margin-top: 15px;
+}
+
+.navigation li{
+    margin-left: 30px;
+    list-style: none;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: #000000;
+}
+
+h2 a{
+    text-decoration: none;
+    color: black;
+}
+
+.navigation li a:hover, .active{
+    color: black;
+    border-bottom: 5px solid black;
+}
+
+.appercuentete, .appercunew, .appercutend, .appercu{
+
+    margin-top: 55px;
+    padding-top: 15px;
+    background-color: #4F4F4F;
+    color: black;
+    border: 1px solid #4F4F4F;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+    align-content: space-around;
+}
+
+.appwebtoon{
+background-color: #333333;
+box-shadow:6px 6px 15px #000000;
+border-radius: 10px;
+margin-bottom: 15px;
+}
+
+.appimg img{
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.titresection{
+    width: 500px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #828282;
+    color: black;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+}
+
+.titresection a, h1{
+    text-align: center;
+    padding: 0px 10px;
+    text-decoration: none;
+    color: black;
+}
+
+.type span{
+    border: 1px solid #000000;
+    border-radius: 5px;
+    padding: 5px;
+    margin-left: 5px;
+}
+
+.pages{
+    width: 500px;
+    margin: auto;
+    background-color: #E0E0E0;
+    color: black;
+    border: 1px solid #E0E0E0;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+    margin-top: 55px;
+    margin-bottom: 50px;
+}
+
+ul{
+    list-style: none;
+}
+
+.pages a{
+    text-decoration: none;
+    color: #000000;
+}
+
+.desc{
+    padding: 20px;
+    background-color: #828282;
+    color: #000000;
+    border: 1px solid #828282;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+}
+
+.desc p{
+    width: 500px;
+    text-align: justify;
+}
+
+.chap{
+    width: 200px;
+    margin: auto;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+    background-color: #828282;
+    color: black;
+    border: 1px solid #828282;
+    border-radius: 15px;
+    box-shadow: 6px 6px 15px black;
+}
+
+.chap :hover{
+    color: #E0E0E0;
+}
+
+.chap :visited{
+    color: #1d2a97;
+}
+
+.chap a{
+    text-decoration: none;
+    color: #000000;
+    font-size: 20px;
+}
+
+.lecture{
+    width: 800px;
+    margin: auto;
+    margin-top: 50px;
+    background-color: #4F4F4F;
+    border: 1px solid #4F4F4F;
+    border-radius: 10px;
+    box-shadow: 6px 6px 15px black;
+}
+
+.chapimg p img{
+    display: block;
+    width: 95%;
+    margin: auto;
+}
+
+.haut img{
+    height: 50px;
+}
+
+@media all and (max-width: 1024px)
+{
+
+    .corpsdepage{
+        width: auto;
+    }
+
+    .entete{
+        margin: 0%;
+        padding: 0px;
+        width: auto;
+        display: block;
+    }
+    
+    .nomsite{
+        width: auto;
+        margin: auto;
+        text-align: center;
+        font-size: 10px;
+    }
+    
+    .navigation{
+        display: flex;
+        justify-content: flex-start;
+        width: auto;
+        padding: auto;
+        margin: auto;
+
+    }
+    
+    .navigation li{
+        margin-left: 10px;
+        list-style: none;
+    }
+    
+    .navigation li a{
+        text-decoration: none;
+        color: #000000;
+    }
+    
+    h2 a{
+        text-decoration: none;
+        color: black;
+    }
+    
+    .navigation li a:hover, .active{
+        color: black;
+        border-bottom: 5px solid black;
+    }
+    
+    .appercuentete, .appercunew, .appercutend, .appercu{
+        width: auto;
+        margin: 0%;
+        padding: 0%;
+        margin-top: 10px; 
+        padding-top: 10px;
+    }
+    
+    .appwebtoon{
+        width: auto;
+        margin: 0%;
+        margin-bottom: 15px;
+        
+    }
+    
+    .appimg img{
+        width: auto;
+        margin: 0px;
+    }
+    
+    .titresection{
+        width: auto;
+        margin: 0%;
+        margin-top: 50px;
+    }
+    
+    .titresection a, h1{
+        width: auto;
+    }
+    
+    .pages{
+        width: auto;
+        margin: 0%;
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    
+    .desc{
+        width: auto;
+        margin: 10px 0px;
+        padding: 10px;
+    }
+    
+    .desc p{
+        width: auto;
+        text-align: center;
+    }
+    
+    .lecture{
+        width: auto;
+    }
+}
